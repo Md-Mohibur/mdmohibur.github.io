@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* top front page */
+.section1{
+    background:linear-gradient(to right,rgb(198, 187, 206, 0), rgb(148, 24, 219)), url(man.jpg);
+    background-size:cover;
+    background-position: 50%;
+    height: 720px;
+    width: 100%;
+    position: relative;
+}
+.menu{
+    width: fit-content;
+    background-color:transparent;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+}
+.menu:hover span{
+    background: #37A7FF;
+}
+.menu span{
+    height: 5px;
+    display:block;
+    background: rgb(255, 255, 255);
+    margin-bottom: 3px;
+}
+.menu span:nth-child(1){
+    width: 25px;
+}
+.menu span:nth-child(2){
+    width: 30px;
+}
+.menu span:nth-child(3){
+    width: 20px;
+}
+.bio{
+    color: white;
+    position: absolute;
+    right: 14%;
+    top: 20%;
+}
+.bio .interect{
+    font-size: 3vw;
+    margin-bottom: 6%;
+    font-family: 'Montserrat', sans-serif;
+}
+.bio h1{
+    margin-bottom: 6%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+.announcement{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.know-more-btn{
+    position: absolute;
+    top: 56%;
+    right: 22%;
+    text-align: center;
+}
+.know-more-btn a{
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px 55px;
+    font-size: x-large;
+    text-decoration: none;
+    border-radius: 30px;
+    display: block;
+    background: #37A7FF;
+    box-shadow: 1px 10px 50px -20px black;
+    transition: 0.3s;
+}
+.know-more-btn i{
+    margin-left: 5px;
+}
+.know-more-btn a:hover{
+    background: linear-gradient(to top right,#006cbe, #008efa);
+}
+.social-links{
+    position: absolute;
+    top: 70%;
+    right: 23%;
+    color: #D3B9EF;
+    font-size: large;
+}
+.social-links a{
+    color: #D3B9EF;
+    font-size: 20px;
+    margin-right: 4px;
+    transition: 0.2s;
+}
+.social-links a:hover{
+    color: #37A7FF;
+}
+.social-links span:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-right: 6px;
+}
+/* top front page end */
+/* second page */
+.section2{
+    background: #F2F2F2;
+    width: 100%;
+    height: 1100px;
+    position: relative;
+}
+.slide-page{
+    background-color: white;
+    width: 86%;
+    height: 890px;
+    position: absolute;
+    top: -11%;
+    right: 7%;
+    box-shadow: 0 0 99px 0px rgb(212, 206, 206);
+}
+.headings{
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 11.5%;
+    left: 6%;
+    color: rgb(65, 59, 59);
+    
+}
+.headings p:first-child{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.headings p:nth-child(2){
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.headings b{
+    color: #af3bdd;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headings p:last-child{
+    font-size: 50px;
+    color: rgb(92, 87, 87);
+}
+.line{
+    background-color: #af3bdd;
+    height: 3px;
+    width: 10%;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+.slide-page .slide{
+    position: relative;
+}
+.slide .fa-angle-left{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    left: -2%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50%;
+    display: block;
+    font-size: larger;
+    color: gray;
+    box-shadow: 5px -2px 120px #a59d9d;
+}
+.slide .fa-angle-left:hover, .slide .fa-angle-right:hover{
+    background: linear-gradient(to left, rgb(180, 56, 238), rgb(113, 15, 158));
+    color: #fff;
+}
+.slide .fa-angle-right{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    right: -2%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50%;
+    display: block;
+    font-size: larger;
+    color: gray;
+    box-shadow: 5px -2px 120px #a59d9d;
+}
+.slide .first {
+    position: absolute;
+    width: 25%;
+    height: 417px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 32%;
+    margin-left: 5%;
+    box-shadow: 0 0 20px rgb(219, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slide .second{
+    position: absolute;
+    width: 35%;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 29%;
+    margin-left: 32.5%;
+    box-shadow: 0 0 20px rgb(219, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slide .third{
+    position: absolute;
+    width: 25%;
+    height: 417px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 32%;
+    margin-left: 70%;
+    box-shadow: 0 0 20px rgb(219, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slide .first .middle{
+    color: #af3bdd;
+    left: 15%;
+    top: 60%;
+    position: absolute;
+    font-weight: bold;
+}
+.slide .first b:first-child{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(87, 85, 85);
+}
+.slide .first h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 13%;
+    font-weight: lighter;
+    margin-bottom: 20%;
+    color: gray;
+}
+.first p{
+    font-size: 25px;    
+    margin: 0 10%;
+    color: gray;
+}
+
+.first a{
+    display: block;
+    font-size: large;
+    color: rgb(185, 184, 184);
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30%;
+    padding: 5px;
+    font-style: italic;
+    transition: 0.3s;
+}
+.second a{
+    display: block;
+    font-size: large;
+    color: rgb(185, 184, 184);
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+    margin-top: 35%;
+    padding: 5px;
+    font-style: italic;
+    transition: 0.3s;
+} 
+.third a{
+    display: block;
+    font-size: large;
+    color: rgb(185, 184, 184);
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+    margin-top: 23%;
+    padding: 5px;
+    font-style: italic;
+    transition: 0.3s;
+}
+.first a:hover, .second a:hover, .third a:hover{
+    color: #af3bdd;
+}
+.slide .second h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 13%;
+    font-weight: 900;
+    margin-bottom: 20%;
+    color: rgb(102, 100, 100);
+}
+.second p{
+    font-size: 25px;    
+    color: rgb(161, 156, 156);
+    text-align: justify;
+    margin: 0 25%;
+}
+.slide .second .middle{
+    color: #af3bdd;
+    font-size: large;
+    left: 15%;
+    top: 70%;
+    position: absolute;
+    font-weight: bold;
+}
+.third .circle{
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 2px solid rgb(114, 111, 111);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.third .circle h2{
+    background: transparent;
+    color: rgb(78, 77, 77);
+    margin: auto;
+    margin-top: 30%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.slide .third .middle{
+    color: #af3bdd;
+    left: 15%;
+    top: 60%;
+    position: absolute;
+    font-weight: bold;
+}
+.third p{
+    font-size: 25px;    
+    color: rgb(148, 147, 147);
+    text-align: left;
+    margin: 0 10%;
+    margin-top: 10%;
+}
+.trimore{
+    font-variant: small-caps;
+    color: rgb(95, 93, 93);
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 40%; 
+}
+/* section2 ends here */
+
+/* section3 starts here */
+.section3{
+    height: 1500px;
+    background: #F2F2F2;
+    position: relative;
+}
+.section3 .testimoni{
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    top: -10%;
+}
+.section3 .testimoni p{
+    text-transform: uppercase;
+    font-size: large;
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.section3 .testimoni b{
+    color: #ee02da;
+    text-transform: capitalize;
+    font-family: arial;
+    font-weight: 900;
+    font-size: 55px;
+}
+.testi{
+    font-size: 50px;
+    font-family: arial;
+    word-spacing: 4px;
+    font-weight: bold;
+    color: rgb(104, 102, 102);
+}
+.uline{
+    width: 15%;
+    display: block;
+    height: 3px;
+    background: #ee02da;
+}
+.section3 .blank1{
+    position: absolute;
+    top: 4%;
+    background: orange;
+    width: 5%;
+    height: 30%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.section3 .blank2{
+    position: absolute;
+    top: 4%;
+    background: rgb(252, 8, 179);
+    width: 5%;
+    height: 30%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right: 0%;
+}
+.section3 .john{
+    position: absolute;
+    top: 4%;
+    background: rgb(141, 81, 211);
+    left: 8.3%;
+    width: 40%;
+    height: 30%;
+    border-radius: 5px;
+}
+.section3 .rocky{
+    position: absolute;
+    top: 4%;
+    right: 8.3%;
+    background: rgb(70, 130, 240);
+    width: 40%;
+    height: 30%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-radius: 5px;
+}
+.john h3, .rocky h3{
+    margin-left: 15%;
+    font-size: 40px;
+    margin-top: 15%;
+    color: #fff;
+    font-family: arial;
+    text-transform: capitalize;
+}
+.john p, .rocky p{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    font-size: 25px;
+    margin-right: 13%;
+    font-weight: lighter;
+}
+.john pre, .rocky pre{
+    font-family: arial;
+    margin-right: 5%;
+    text-align: right;
+    color: #fff;
+    font-size: large;
+}
+.activity .first h4{
+    color: #6b06c9;
+    font-family: arial;
+    font-size: 70px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 19%;
+}
+.activity .second h4{
+    color: #527bff;
+    font-family: arial;
+    font-size: 70px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+.activity .third h4{
+    color: #c20078;
+    font-family: arial;
+    font-size: 70px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    right: 19%;
+}
+.activity span{
+    width: 3px;
+    height: 7%;
+    background: rgb(221, 218, 218);
+    display: block;
+    position: absolute;
+    top: 53%;
+    right: 40%;
+}
+.activity .span{
+    width: 3px;
+    height: 7%;
+    background: rgb(221, 218, 218);
+    display: block;
+    position: absolute;
+    top: 53%;
+    right: 63%;
+}
+.activity .first p{
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 58%;
+    left: 11%;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: arial;
+}
+.activity .second p{
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 58%;
+    left: 18%;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: arial;
+}
+.activity .third p{
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 49%;
+    right: 11%;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: arial;
+}
+.touch{
+    width: 100%;
+    height: 25%;
+    background: #664FEE;
+    position: absolute;
+    bottom: 0;
+}
+.touch h5{
+    color: #fff;
+    font-size: 45px;
+    word-spacing: 6px;
+    text-align: center;
+    font-family: arial;
+    margin-top: 7%;
+}
+.touch a{
+    display: block;
+    padding: 28px 0px;
+    background: rgb(61, 177, 255);
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 99px #5846bd;
+}
+.touch a:hover{
+    background: rgb(42, 161, 240);
+    color: rgb(174, 255, 244);
+}
+/* section3 ends here */
+.section4{
+    background: #37324B;
+    width: 100%; 
+    height: 540px;
+    position: relative;
+}
+.section4 .sub{
+    text-align: center;
+    position: absolute;
+    left: 42%;
+    top: 15%;
+    font-size: 50px;
+    font-weight: 400;
+    color: #c0bdbd;
+    text-transform: capitalize;
+    font-family: arial;
+    
+}
+.section4 .sub::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 113%;
+    background-color: rgb(16, 152, 255);
+    width: 45%;
+    height: 4px;
+    left: 22%;
+}
+.section4 .sub .ferreero{
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+.section4 .social-link{
+    position: absolute;
+    width: 100%;
+    left: 37%;
+    top: 50%;
+}
+.section4 .social-link a{
+    font-size: 50px;
+    color: rgb(110 110 110);
+    margin: 0 1%
+}
