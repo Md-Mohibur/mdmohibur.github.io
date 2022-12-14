@@ -1,0 +1,311 @@
+*{
+    padding: 0%;
+    margin: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.first-front-section{
+    width: 100%;
+    height: 100vh;
+}
+/* first header starts from here */
+.first-header{
+    background: rgb(7%, 63%, 4%);
+    width: 100%;
+    height: 2.2rem;
+}
+.first-header .size1{
+    width: 1.5rem;
+    height: 1rem;
+}
+.first-header .list1, .list2{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.first-header .list1 span{
+    color: #ffffff;
+    font-family:sans-serif ;
+    text-transform: capitalize;
+    display: block;
+    font-size: 1vw;
+}
+
+.first-header .list1 li .span1{
+    padding: .1rem 1.5rem;
+}
+.first-header .list1 li .span3{
+   display: block;
+   background: #ffffff;
+   height: 1.2rem;
+   width: .1rem;
+}
+.first-header .list1 li .span2{
+    padding: .5rem 1.5rem;
+}
+.first-header .list2 a{
+    color: #ffffff;
+    font-family:sans-serif ;
+    text-transform: capitalize;
+    display: block;
+    padding: .3rem;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+.first-header .list2 li span{
+    padding: .5rem 1rem .5rem 2.5rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: arial;
+}
+/* first header ends here */
+
+/* second header starts here */
+
+.first-front-section .second-header{
+    width: 100%;
+    height: 5rem;
+    background: #ffffff;
+}
+.second-header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-header .size2{
+    width: 11rem;
+    margin-left: 1rem;
+}
+.form-center{
+    align-items: center;
+    justify-content: center;
+}
+.second-header ul{
+    list-style: none;
+}
+.form-center .list3 ul li{
+    position: relative;
+}
+.form-center .list3>ul>li>a{
+    display: block;
+    padding: .4rem 1rem;
+    text-align: center;
+    border: .06rem solid #ced4da;
+    text-decoration: none;
+    font-family: arial;
+    background: #fff;
+    color: #817b7b;
+    margin: 11% 0;
+    transition: all .3s;
+    font-size: 1.2vw;
+}
+.form-center .list3 ul li ul li a{
+    display: block;
+    padding: .4rem 1rem;
+    text-align: center;
+    border: .06rem solid #ced4da;
+    text-decoration: none;
+    font-family: arial;
+    background: #fff;
+    color: #817b7b;
+    transition: all .3s;
+    font-size: 1.2vw;
+    width: 11rem;
+}
+.list3 ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+}
+.list3 ul li ul{
+    opacity: 0;
+    visibility: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+.form-center .list3 a:hover{
+    background: #ced4da;
+}
+.form-center .list3 ul li a:hover .sub-list3{
+    display: block;
+}
+.form-center a i{
+    margin-right: .5rem;
+    font-size: 1.2vw;
+}
+.custom1, .custom2{
+    border-radius: 0%;
+    text-transform: capitalize;
+}
+.custom2{
+    border: 1px solid #ced4da;
+    background: rgb(7%, 63%, 4%);
+    padding: 0 1.5rem;
+    color: #ffffff;
+}
+.custom2:hover{
+    background: rgb(16, 146, 9);
+    color: #fff;
+}
+.second-header .list4{
+    align-items: center;
+}
+.second-header .list4 ul{
+    justify-content: space-around;
+    width: 100%;
+}
+.second-header .list4 a{
+    color: #4f5154;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+.second-header .list4 a:hover{
+    color: rgb(16, 164, 8);
+}
+.list4 ul{
+    margin-top: .6rem;
+}
+.second-header .list4 i{
+    margin-right: .5rem;
+    font-size: 1.5vw;
+}
+/* second header ends here */
+
+/* third header starts here */
+.first-front-section .third-header{
+    width: 100%;
+    height: 3rem;
+}
+.third-header ul{
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    background: #000000;
+    height: 100%;
+    align-items: center;
+}
+.third-header ul li{
+    display:flex;
+}
+.third-header a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: .92rem 2rem;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.third-header a:hover{
+    background: rgb(16, 146, 9);
+}
+/* third header ends here */
+
+/* section body starts here */
+.first-front-section .section-bg{
+    background: linear-gradient(rgba(20, 133, 10, 0.6), rgba(34, 157, 25, 0.6)), url(/assets/images/section-bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.section-bg{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-bg .custom3{
+    color: #ffffff;
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: 'Berlin Sans FB Demi', sans-serif;                                    
+    text-transform: uppercase;
+}
+.section-bg .custom4{
+    padding: .8rem 3.2rem;                                                               font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    border-radius: 0;
+    font-size: 1.2vw;
+    color: #444444;
+}
+.section-bg .custom4:hover{
+    color: rgb(0, 0, 0);
+}
+/* section body ends here */
+
+
+/* food products section starts from here */
+.food-products{
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+}
+.food-products .heading{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+                                              
+}
+.heading h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5vwvw;  
+    font-weight: 900; 
+}
+.heading .underline1{
+    background: rgb(16, 146, 9);
+    width: 4rem;
+    height: .4rem;
+}
+#food-slide{
+    width: 24%;
+}
+.carousel-item img{
+    width: 100%;
+}
+.foods{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% auto;
+}
+.pricing{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.amount{
+    color: rgb(16, 164, 8);
+    font-family: 'Poppins', sans-serif;
+}
+.pricing h3{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+    font-size: 1.2vw;
+}
+.card-body a{
+    color: rgb(165, 112, 14);
+    text-decoration: none;
+    text-transform: capitalize;
+    align-self: flex-end;
+}
+.card-body a:hover{
+    color: orangered;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.slide{
+    box-shadow:0 0 5px rgb(207, 206, 206);
+    border-radius: 5px;
+}
