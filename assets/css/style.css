@@ -1,311 +1,438 @@
 *{
-    padding: 0%;
-    margin: 0;
-
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.first-front-section{
-    width: 100%;
-    height: 100vh;
-}
-/* first header starts from here */
-.first-header{
-    background: rgb(7%, 63%, 4%);
-    width: 100%;
-    height: 2.2rem;
-}
-.first-header .size1{
-    width: 1.5rem;
-    height: 1rem;
-}
-.first-header .list1, .list2{
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-.first-header .list1 span{
-    color: #ffffff;
-    font-family:sans-serif ;
-    text-transform: capitalize;
-    display: block;
-    font-size: 1vw;
-}
-
-.first-header .list1 li .span1{
-    padding: .1rem 1.5rem;
-}
-.first-header .list1 li .span3{
-   display: block;
-   background: #ffffff;
-   height: 1.2rem;
-   width: .1rem;
-}
-.first-header .list1 li .span2{
-    padding: .5rem 1.5rem;
-}
-.first-header .list2 a{
-    color: #ffffff;
-    font-family:sans-serif ;
-    text-transform: capitalize;
-    display: block;
-    padding: .3rem;
-    text-decoration: none;
-    font-size: 1.1vw;
-}
-.first-header .list2 li span{
-    padding: .5rem 1rem .5rem 2.5rem;
-    color: #ffffff;
-    text-transform: capitalize;
-    font-family: arial;
-}
-/* first header ends here */
-
-/* second header starts here */
-
-.first-front-section .second-header{
-    width: 100%;
-    height: 5rem;
-    background: #ffffff;
-}
-.second-header .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.second-header .size2{
-    width: 11rem;
-    margin-left: 1rem;
-}
-.form-center{
-    align-items: center;
-    justify-content: center;
-}
-.second-header ul{
-    list-style: none;
-}
-.form-center .list3 ul li{
-    position: relative;
-}
-.form-center .list3>ul>li>a{
-    display: block;
-    padding: .4rem 1rem;
-    text-align: center;
-    border: .06rem solid #ced4da;
-    text-decoration: none;
-    font-family: arial;
-    background: #fff;
-    color: #817b7b;
-    margin: 11% 0;
-    transition: all .3s;
-    font-size: 1.2vw;
-}
-.form-center .list3 ul li ul li a{
-    display: block;
-    padding: .4rem 1rem;
-    text-align: center;
-    border: .06rem solid #ced4da;
-    text-decoration: none;
-    font-family: arial;
-    background: #fff;
-    color: #817b7b;
-    transition: all .3s;
-    font-size: 1.2vw;
-    width: 11rem;
-}
-.list3 ul li:hover ul{
-    visibility: visible;
-    opacity: 1;
-    pointer-events: all;
-}
-.list3 ul li ul{
-    opacity: 0;
-    visibility: 0;
-    pointer-events: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
+    margin: 0%;
     padding: 0;
 }
-.form-center .list3 a:hover{
-    background: #ced4da;
+
+
+/* top header part starts from here */
+.top-header{
+    background: #16B90B;
+    width: 100%;
+    height: 30px;
 }
-.form-center .list3 ul li a:hover .sub-list3{
-    display: block;
+.top-header{
+    display: flex;
+    justify-content: space-around;
 }
-.form-center a i{
-    margin-right: .5rem;
-    font-size: 1.2vw;
-}
-.custom1, .custom2{
-    border-radius: 0%;
+.top-header ul:first-child{
+    display: flex;
+    color: #fff;
+    font-family: 'poppins';
     text-transform: capitalize;
 }
-.custom2{
-    border: 1px solid #ced4da;
-    background: rgb(7%, 63%, 4%);
-    padding: 0 1.5rem;
-    color: #ffffff;
-}
-.custom2:hover{
-    background: rgb(16, 146, 9);
+.top-header ul:last-child a{
+    text-decoration: none;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    display: block;
     color: #fff;
 }
-.second-header .list4{
-    align-items: center;
+.top-header ul:last-child a:first-child{
+    margin: 0 15px;
 }
-.second-header .list4 ul{
-    justify-content: space-around;
+.top-header img{
+    width: 30px;
+    height: 20px;
+}
+/* top header part ends here */
+
+/* center header part starts from here */
+
+.center-header{
+    min-height: 70px;
+    background: rgb(255, 255, 255);
+}
+.center-header #dryfood-logo{
+    width: 150px;
+}
+.center-header form input[type=search]{
+    border-radius: 0;
+    width: 20rem;
+    font-family: 'poppins';
+}
+.center-header form input[type=search]::placeholder{
+    color: rgb(196, 196, 196);
+}
+.center-header form button[type=submit]{
+    background: #16B90B;
+    border-radius: 0;
+    width: 90px;
+    font-family: 'poppins';
+}
+.center-header .category{
+    width: 170px;
+    text-align: center;
+}
+/* center header part ends here */
+
+/* bottom header part start from here */
+.bottom-header .header-last-menu .nav-link{
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 2px 12px;
+    font-size: 1vw;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: orangered;
+}
+.bottom-header .header-last-menu .nav-link:hover{
+    color: orangered;
+}
+/* bottom header part ends here */
+
+/* section bg starts from here */
+.overlay::after{
+    content: '';
+    background: rgba(4, 203, 5, 0.4);
     width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
 }
-.second-header .list4 a{
-    color: #4f5154;
+.contact-us{
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+}
+.contact-us h1{
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+.contact-btn{
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'Berlin Sans FB Demi Bold';
+    background: #fff;
+    width: 15%;
+    text-align: center;
+    font-size: 1.2vw;
+    color: rgb(85, 85, 85);
+}
+
+/* section bg ends here */
+
+/* food products section starts from here */
+.food-products-heading{
+    width: 100%;
+    height: 10rem;
+}
+.heading2{
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+    font-family: 'poppins';
+    font-weight: 700;
+    position: relative;
     text-transform: capitalize;
-    font-family: sans-serif;
+}
+.heading2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 7%;
+    height: 7px;
+    background: #16B90B;
+    left: 46%;
+}
+.food-slider{
+    background: rgb(248, 248, 248);
+
+}
+.food-slider .products{
+    box-shadow: 0 0 5px 5px rgb(216, 215, 215);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.food-slider .products img{
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+.food-slider .product-name{
+    align-self: flex-start;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+.food-slider .product-price{
+    align-self: flex-end;
+    color: #16B90B;
+    font-family: 'poppins';
+}
+.food-slider .lorem{
+    text-align: justify;
+}
+.food-slider .know-more-link{
+    align-self: flex-end;
+    color: rgb(177, 70, 37);
+    text-transform: capitalize;
     text-decoration: none;
-    font-size: 1.1vw;
+    font-family: 'poppins';
 }
-.second-header .list4 a:hover{
-    color: rgb(16, 164, 8);
+
+/* food products section ends here */
+
+/* why choose our food section starts */
+.causes{
+    width: 50%;
+    margin: 3% auto;
 }
-.list4 ul{
-    margin-top: .6rem;
+.free-delivery, .dryfood, .high-quality{
+    width: 18rem;
+    height: 25rem;
+    box-shadow: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 1.3vw;
 }
-.second-header .list4 i{
-    margin-right: .5rem;
+.free-delivery img{
+    background: rgb(61, 60, 60);
+    width:110px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.dryfood img{
+    background: #16B90B;
+    width:110px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.high-quality img{
+    background: rgb(61, 60, 60);
+    width:110px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.causes .card-title{
+    font-family: 'poppins';
+    font-weight: 600;
+    text-transform: uppercase;
     font-size: 1.5vw;
 }
-/* second header ends here */
+.free-delivery .card-title{
+    color: rgb(61, 60, 60);
+}
+.dryfood .card-title{
+    color: #16B90B;
+}
+.high-quality .card-title{
+    color: rgb(61, 60, 60);
+}
+/* why choose our food section starts */
 
-/* third header starts here */
-.first-front-section .third-header{
+/* about foods section starts from here */
+
+.overlay1::after{
+    content: '';
+    background: rgba(26, 26, 26, 0.8);
     width: 100%;
-    height: 3rem;
-}
-.third-header ul{
-    width: 100%;
-    list-style: none;
-    justify-content: center;
-    background: #000000;
     height: 100%;
-    align-items: center;
+    display: block;
+    position: absolute;
+    top: 0;
 }
-.third-header ul li{
-    display:flex;
+.about-foods{
+    z-index: 1;
+    height: 100%;
+    font-family: 'poppins';
+    font-size: 1.5vw;
 }
-.third-header a{
-    color: #ffffff;
-    text-decoration: none;
-    padding: .92rem 2rem;
+.about-foods .more-btn{
+    background: #16B90B;
+    width: 15%;
+    display: block;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+/* about foods section ends here */
+
+/* <!-- latest news section starts here --> */
+.foods-benefits img{
+    width: 160%;
+}
+.khejur-benefits, .kissmiss-benefits{
+    border: none;
+    font-family: 'poppins';
+}
+.foods-benefits .card-title{
+    font-family: 'poppins';
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.foods-benefits .read-more{
+    background: #16B90B;
+    display: block;
+    padding: 10px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    width: 25%;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'poppins';
+}
+/* <!-- latest news section ends here --> */
+
+/* testimonial starts from here */
+#jenilio-desos{
+    margin-left: 7%;
+}
+.testimonial .heading3{
+    position: relative;
+    font-family: 'poppins';
+    font-weight: bold;
+    margin-left: 7%;
+}
+.heading3::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 7%;
+    height: 7px;
+    background: #16B90B;
+    left: 0;
+}
+.testimonial img{
+    position: absolute;
+    width: 35%;
+    top: -8%;
+}
+.testimonial .card-text{
+    text-align: justify;
+    margin-top: 8%;
+    font-family: 'poppins';
+}
+.testimonial .card-title{
+    margin-left: 37%;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-family: 'Berlin Sans FB Demi Bold';
+    margin-top: 3%;
+}
+.testimonial .card-subtitle{
+    margin-left: 37%;
+    font-size: 1.2vw;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    line-height: 5px;
+    color: #16B90B;
+}
+
+
+/* testimonial section ends here */
+
+/* get in touch starts from here */
+.get-in-touch form{
+    margin-top: 3%;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.get-in-touch form .input1{
+    width: 50%;
+    height: 50px;
+    text-transform: capitalize;
+    border: 2px solid rgb(175, 174, 174);
+    border-radius: 0;
+    margin: 0 auto;
+}
+.get-in-touch form .input4{
+    margin: 0 auto;
+    width: 50%;
+    height: 60px;
+    text-transform: capitalize;
+    border: 2px solid rgb(175, 174, 174);
+    border-radius: 0;
+}
+.get-in-touch button[type=submit]{
+    margin: 0 auto;
+    width: 12%;
+    height: 10%;
+    background: #16B90B;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-family: 'Berlin Sans FB Demi Bold';
+}
+
+/* testimonial ends here */
+
+/* footer section starts from header */
+.footer-section{
+    width: 100%;
+}
+.footer-section form .main-input{
+    width: 70%;   
+    border-bottom: 2px solid #21661d;
+    margin:3% auto;
+}
+.footer-section form .sub-input{
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    margin-top: 3%;
+    color: #d6d4d4;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+.footer-section form .sub-btn{
+    color: #d6d4d4;
+    margin-top: 3%;
+    font-family: 'poppins';
     text-transform: uppercase;
     font-size: 1vw;
     font-weight: bold;
 }
-.third-header a:hover{
-    background: rgb(16, 146, 9);
+.instagram img{
+    width: 4rem;
 }
-/* third header ends here */
-
-/* section body starts here */
-.first-front-section .section-bg{
-    background: linear-gradient(rgba(20, 133, 10, 0.6), rgba(34, 157, 25, 0.6)), url(/assets/images/section-bg.png);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+.useful-links, .features-food, .instagram, .contactus{
+    width: 35%;
 }
-.section-bg{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.links .sub-link{
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
 }
-.section-bg .custom3{
-    color: #ffffff;
-    font-size: 5vw;
-    font-weight: 900;
-    font-family: 'Berlin Sans FB Demi', sans-serif;                                    
+.features-food .link-paragraph{
+    width: 60%;
+    text-align: justify;
+    color: #999797;
+}
+.useful-links a, .instagram a{
+    color: #999797;
+    font-size: .8vw;
+    font-family: 'poppins';
+}
+.instagram a{
+    font-size: 1vw;
+    text-decoration: none;
     text-transform: uppercase;
 }
-.section-bg .custom4{
-    padding: .8rem 3.2rem;                                                               font-family: 'Berlin Sans FB Demi', sans-serif;
-    font-family: 'Berlin Sans FB Demi', sans-serif;
-    border-radius: 0;
-    font-size: 1.2vw;
-    color: #444444;
+.contactus ul li{
+    color: #e4e4e4;
+    margin-bottom: 3%;
 }
-.section-bg .custom4:hover{
-    color: rgb(0, 0, 0);
+.contactus ul li i{
+    margin-right: 2%;
 }
-/* section body ends here */
 
-
-/* food products section starts from here */
-.food-products{
-    height: 100vh;
-    width: 100%;
-    background: #fff;
-}
-.food-products .heading{
-    width: 100%;
-    height: 7rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-                                              
-}
-.heading h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.copyright-section p{
+    text-align: center;
+    font-family: 'poppins';
     text-transform: capitalize;
-    font-size: 1.5vwvw;  
-    font-weight: 900; 
-}
-.heading .underline1{
-    background: rgb(16, 146, 9);
-    width: 4rem;
-    height: .4rem;
-}
-#food-slide{
-    width: 24%;
-}
-.carousel-item img{
-    width: 100%;
-}
-.foods{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 3% auto;
-}
-.pricing{
-    flex-direction: row;
-    justify-content: space-between;
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-}
-.amount{
-    color: rgb(16, 164, 8);
-    font-family: 'Poppins', sans-serif;
-}
-.pricing h3{
-    text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-    font-variant: small-caps;
-    font-size: 1.2vw;
-}
-.card-body a{
-    color: rgb(165, 112, 14);
-    text-decoration: none;
-    text-transform: capitalize;
-    align-self: flex-end;
-}
-.card-body a:hover{
-    color: orangered;
-}
-.card-body{
-    display: flex;
-    flex-direction: column;
-}
-.slide{
-    box-shadow:0 0 5px rgb(207, 206, 206);
-    border-radius: 5px;
 }
